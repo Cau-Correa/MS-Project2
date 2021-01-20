@@ -1,45 +1,248 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Interactive Frontended Development Milestone Project - 2
 
-Welcome USER_NAME,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+[View the live project here.](project url)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Screenshot Responsive](image path)
 
-`python3 -m http.server`
+## UX
 
-A blue button should appear to click: *Make Public*,
+The purpose of this memory game is to memorize the locations of the cards in the game and to make pairs of cards by clicking and turning them over 2 by 2. When a match is made, the player got a pair and keep looking for othe pairs, otherwise the cards are automatically turned face down ready to make a new try.
 
-Another blue button should appear to click: *Open Browser*.
+This is a game for people of all ages that want exercise and keep their brain in shape.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+### User Stories
+#### First time visitor goals:
+* As a First Time Visitor, I want to play a game to kill some time.
+* User story
 
-Another blue button should appear to click: *Open Browser*.
+#### Returning visitor goals:
+* As a Returning Visitor, I want to play the game and bit my own scores.
+* User story
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### Frequent user goals:
+* As a Frequent User, I want to keep playing a memory game as a way to exercise my memory.
+* As a Frequent User, I want to keep playing a memory game as a way to keep my brain stimulated.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Memory Match Game
+## How to play:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+At the beginning all cards are mixed up.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Turn over 2 cards, it is 1 move.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+If the cards match its a pair, the cards wont flip back.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+If the cards don't match they will flip back, ready for a new try.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+When you find all matches, you win.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- If you got 1 or 2 points - Play again.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- If you got 3 or 4 points go to the next level.
 
---------
+## How to get points:
 
-Happy coding!
+### LEVEL 1
+* Finish the game =  1 point.
+* Finish the game under 1 min = 1 point.
+* Finish the game with 12  moves or less = 1 point.
+* If you got 2 or 3 points = 1 more point.
+
+### LEVEL 2 
+* Finish the game =  1 point.
+* Finish the game under 1 min and 30 sec = 1 point.
+* Finish the game with 16 moves or less = 1 point.
+* If you got 2 or 3 points = 1 more point.
+
+### LEVEL 3
+* Finish the game =  1 point.
+* Finish the game under 2 min = 1 point.
+* Finish the game with 20 moves or less = 1 point.
+* If you got 2 or 3 points = 1 more point.
+
+## Messages when you finish the Game (level 1 and 2):
+
+* 1 Point message:
+Well done! you got 1 point (try again button)
+
+* 2 Points message:
+Congratulations! you got 2 points (try again button)
+
+* 3 Points message:
+Amazing! you got 3 points (next level button)
+
+* 4 Points message:
+You win! you got 4 points (next level button)
+
+## Messages when you finish the Game (level 3):
+
+* 3 Points message:
+Amazing! you got 3 points (play again)
+
+* 4 Points message:
+You win! you got 4 points (play again)
+
+
+## Features
+
+Features descriptions 
+
+
+## Future features
+
+Future features
+
+## Technologies Used
+1. [Git](https://git-scm.com/) Was used for version control by utilizing the Gitpod terminal to commit to Git and push it to GitHub. 
+2. [GitHub](https://github.com) Used to store the project after it has been pushed from Git.
+3. [Boostrap](https://getbootstrap.com/) The Bootstrap library was used throughout the project to assist with the responsiveness and styling of the website.
+4. [FontAwesome](https://fontawesome.com/) The project uses Font Awesome icons.
+5. [Google Fonts](https://fonts.google.com/) Google fonts were used to homogenize the project. The font imported to the style.css file was 'Overpass'.
+6. [Google Maps](https://www.google.com/maps) Google maps were used to show Dublin in the contact section.
+7. [jQuery](https://jquery.com/) jQuery was used to make the navbar responsive and also used for the modal dialog.
+
+
+## Design
+
+* ### Colour Scheme
+
+
+
+* ### Typography
+
+ 
+
+* ### Design choices
+
+
+
+* ### Wireframe.
+
+![mobile wireframe](wireframe path)
+![tablet wireframe](wireframe path)
+![desktop wireframe](readme-images/memory-game-desktop-wireframe.png)
+
+## Languages used
+* HTML 5
+* CSS 3
+* JavaScript
+
+## Testing
+
+
+
+### Testing User Stories from User Experience (UX) Section
+
+#### First Time Visitor Goals
+##### * User Story 
+1. 
+2. 
+
+![Screenshot UX User Story](path)
+
+3. 
+
+##### * User Story
+1. 
+
+![Screenshot UX User Story](path)
+
+2. 
+
+#### Returning Visitor Goals
+##### * User Story
+1. 
+2. 
+
+![Screenshot User Story](path)
+
+##### * User Story
+1. 
+
+#### Frequent User Goals
+##### * User Story
+1. 
+
+##### * User Story
+1. 
+
+##### * User Story
+1. 
+
+![Screenshot User Story](User Story)
+
+## Fixed Bugs
+
+
+
+## Validation
+
+
+
+* Lighthouse Google Chrome Tools  ????????????
+
+|    |Mobile |Desktop |
+|--- |--- |--- |
+|Performance|??|??|
+Accessibility|??|??|
+Best Practices|??|??|
+SEO|???|???|
+
+
+
+## Deployment
+
+### Git Commands
+After writing the code on Gitpod, I used the Git Commands:
+
+* git add and file or directory name, adds files to the staging area for Git.
+* git commit -m "message", record the changes made to the files to a local repository.
+* git push, sends local commits to the remote repository on GitHub. 
+
+
+### GitHub Pages
+The deployment was deployed to the GitHub pages.
+From my GitHub web page, I open the repository I want to deploy, in this case, “Username-projectname”. 
+Then at the top right of the page click on the 'Settings' link, and scroll down to the GitHub Pages section, 
+I selected the master branch as source, click on save, and I was provided with the following 
+message: Your site is published at (project URL)/
+
+
+### Forking the GitHub Repository
+
+Once you locate the repository you want to fork, at the top right of the page below the right items in the navigation bar the fork button can be located.
+Now you should have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+You find step by step to how to clone a repository from GitHub to your computer on [GitHub Docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) Cloning a repository from GitHub.
+
+## Credits
+
+### Code
+
+
+### Content
+All content was written by the developer.
+
+### Media
+
+
+
+
+
+
+
+
+### Acknowledgements
+
+My Mentor Reuben Ferrante for his help and feedback.
+
+Tutor support at Code Institute for their support.
+
+To the Slack Community for helping me with my silly questions.
+
