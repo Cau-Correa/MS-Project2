@@ -1,13 +1,30 @@
-body {
-  background: black;
-  height: 100vh;
-  display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+.title-bg-color {
+    background-color: #8f5eeb;
 }
 
-.title {
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.memory-game-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
+
+.game-level{
+    background-color: tomato;
+    border: 2px solid black;
     text-align: center;
-    color: red;
-    font-weight: 300;
 }
 
 .game {
@@ -42,3 +59,4 @@ body {
   position: absolute;
   border-radius: 5px;
 }
+
