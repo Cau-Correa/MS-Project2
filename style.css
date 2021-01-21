@@ -1,15 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 
 .title-bg-color {
-    background-color: #8f5eeb;
+    background-color: #333533;
+}
+.htp-menu-color {
+    background-color: #577590;
 }
 
-header {
+.l1-menu-color {
+    background-color: #F8961E;
+}
+
+.l2-menu-color {
+    background-color: #F3722C;
+}
+
+.l3-menu-color {
+    background-color: #F94144;
+}
+
+.pa-menu-color {
+    background-color: #F9c74F;;
+}
+
+.memuitem {
+    height: 100px;
+    text-align: center;
+    padding: 0;
+}
+
+.header {
     margin: 0;
 }
 
 .heading {
     margin-left: 50px;
+    height: 200px;
 }
 
 .memory-game-title {
@@ -17,14 +43,29 @@ header {
     font-weight: 400;
     font-size: 46px;
     margin-top: 20px;
-    margin-bottom: 90px;
-    color: #fff;
+    margin-bottom: 50px;
+    color: whitesmoke;
+    height: 200px;
 }
 
-.game-level{
-    background-color: tomato;
-    border: 2px solid black;
+.game-level {
     text-align: center;
+    color: whitesmoke;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+    margin: 0;
+    border: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
 
 .game {
