@@ -110,6 +110,10 @@ Future features
 
 * ### Colour Scheme
 
+For the colour scheme I used [Coolors.co](https://coolors.co/palettes/trending)
+
+I choose shades of red, orange and yellow for the different levels. Red for level 3, orange for level 2 and yellow for level 1.
+
 
 
 * ### Typography
@@ -118,6 +122,7 @@ Future features
 
 * ### Design choices
 
+In all pages I used the Rule of Thirds.
 
 
 * ### Wireframe.

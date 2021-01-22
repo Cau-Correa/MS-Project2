@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 
+/*-----------------------------hover.CSS-----*/
 .title-bg-color {
     background-color: #334156;
 }
@@ -20,14 +21,60 @@
 }
 
 .pa-menu-color {
-    background-color: #F9c74F;;
+    background-color: #577590;
+}
+
+/*-----------------------------hover.CSS-----*/
+.hvr-sweep-to-right:before {
+    background: rgba(0,0,0,0.2);
+    height: 100px;
+}
+
+/*-----------------------------header-----*/
+.header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+    height: 200px;
+}
+
+.memory-game-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: whitesmoke;
+    height: 200px;
+}
+
+/*-----------------------------Navbar-----*/
+.game-level {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+    margin: 0;
+    border: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
 
 .memuitem {
     height: 100px;
     text-align: center;
     padding: 0;
-    
 }
 /* -----------------review */
 .menuitem a {
@@ -50,56 +97,11 @@
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-/* -----------------review */
-
-/*------hover-----*/
-.hvr-sweep-to-right:before {
-    background: rgba(0,0,0,0.2);
-    height: 100px;
-}
-
-.header {
-    margin: 0;
-}
-
-.heading {
-    margin-left: 50px;
-    height: 200px;
-}
-
-.memory-game-title {
-    font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 46px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    color: whitesmoke;
-    height: 200px;
 }
+/*-------------------review--------*/
 
-.game-level {
-    text-align: center;
-    color: whitesmoke;
-}
-
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
-
-.menucontainer {
-    font-size: 0;
-    margin: 0;
-    border: 0;
-}
-
-#nav li {
-    font-size: 14px;
-    padding: 0;
-}
-
+ /*-----------------------------Cards-----*/
 .game {
   width: 640px;
   height: 640px;
@@ -107,6 +109,7 @@
   display: flex;
   flex-wrap: wrap;
   perspective: 1000px;
+  background-color: #43AA8B;
 }
 
 .card {
@@ -131,5 +134,29 @@
   padding: 0;
   position: absolute;
   border-radius: 5px;
+}
+
+/*-----------------------------Footer-----*/
+.footer-style {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: whitesmoke;
+    background-color: #334156;
+    text-align: center;
+    min-height: 100px;
+}
+
+/*-----------------------------Time/Moves/Score-----*/
+.performance {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #577590;
+    text-align: center;
+    min-height: 33px;
+    color: whitesmoke;
 }
 
