@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 
 .title-bg-color {
-    background-color: #333533;
+    background-color: #334156;
 }
 .htp-menu-color {
     background-color: #577590;
@@ -27,6 +27,38 @@
     height: 100px;
     text-align: center;
     padding: 0;
+    
+}
+/* -----------------review */
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: whitesmoke;
+    height: 100px;
+}
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: whitesmoke;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+/* -----------------review */
+
+/*------hover-----*/
+.hvr-sweep-to-right:before {
+    background: rgba(0,0,0,0.2);
+    height: 100px;
 }
 
 .header {
