@@ -37,7 +37,7 @@
 
 .heading {
     margin-left: 50px;
-    height: 200px;
+    height: 100px;
 }
 
 .memory-game-title {
@@ -47,7 +47,7 @@
     margin-top: 20px;
     margin-bottom: 50px;
     color: whitesmoke;
-    height: 200px;
+    height: 130px;
 }
 
 /*-----------------------------Navbar-----*/
@@ -109,7 +109,7 @@
   display: flex;
   flex-wrap: wrap;
   perspective: 1000px;
-  background-color: #43AA8B;
+  background-color: #577590;
 }
 
 .card {
@@ -154,9 +154,26 @@
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: #577590;
+   /* background-color: #456799;*/
     text-align: center;
     min-height: 33px;
-    color: whitesmoke;
+    /*color: whitesmoke;*/
 }
 
+/*-----------------------------Info Section-----*/
+.info {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    height: 100%;
+    color: whitesmoke;
+    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.info-section {
+    height: 640px;
+    background-color: #577590;
+
+}
