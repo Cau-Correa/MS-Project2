@@ -37,7 +37,9 @@
 
 .heading {
     margin-left: 50px;
+    margin-right: 50px;
     height: 100px;
+    text-align: center;
 }
 
 .memory-game-title {
@@ -47,7 +49,8 @@
     margin-top: 20px;
     margin-bottom: 50px;
     color: whitesmoke;
-    height: 130px;
+   /* height: 100px;*/
+    text-align: center;
 }
 
 /*-----------------------------Navbar-----*/
@@ -88,6 +91,7 @@
     display: block;
     color: whitesmoke;
     font-size: 26px;
+    text-align: center;
 }
 
 .menuitem span {
@@ -103,13 +107,12 @@
 
  /*-----------------------------Cards-----*/
 .game {
-  width: 640px;
+  width: 100%;
+  background-color: #577590;
   height: 640px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  perspective: 1000px;
-  background-color: #577590;
 }
 
 .card {
@@ -117,7 +120,6 @@
   height: calc(33.333% - 10px);
   margin: 5px;
   position: relative;
-
 }  
  
 .back {
@@ -157,7 +159,8 @@
    /* background-color: #456799;*/
     text-align: center;
     min-height: 33px;
-    /*color: whitesmoke;*/
+    /*color: whitesmoke;
+     background-color: #334156;*/
 }
 
 /*-----------------------------Info Section-----*/
@@ -174,6 +177,7 @@
 
 .info-section {
     height: 640px;
-    background-color: #577590;
+    /*background-color: #577590;*/
+    background-color: #334156;
 
 }
